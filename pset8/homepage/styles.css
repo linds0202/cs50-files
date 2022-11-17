@@ -1,0 +1,141 @@
+
+
+/* to style elementslike div h or p */
+
+header {
+    background-color: green;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: WhiteSmoke;
+}
+
+h4 {
+    font-family: Arial, sans-serif;
+    color: Indigo;
+    padding: 25px;
+    text-align: center;
+    border: 4px dotted LightBlue;
+    margin: 40px;
+}
+
+button {
+    background-color: DeepSkyBlue;
+    width: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+/* to style 'class' attributes */
+.nav {
+    background-color: Gainsboro;
+}
+
+.nav-link {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+
+.jumbotron {
+    background-color: LightCyan;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.colorChange {
+    text-align: center;
+}
+
+
+.container {
+    color: black;
+    background-color: white;
+    align-content: center;
+
+}
+
+.card-title {
+    color: green;
+}
+
+.sub-title {
+    color: GoldenRod;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+.block-quote {
+    background-color: LightBlue;
+}
+
+.houses-table {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: auto;
+    background-color: LightBlue;
+    width: 250px;
+}
+
+.house-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.house-pics {
+    width: 250px;
+    height: auto;
+}
+
+.plant-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.plant-pics {
+    padding: 5px;
+    height: 250px;
+    width: auto;
+}
+
+.plant-text {
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-left: 20px;
+    padding-right: 80px;
+    background-color: WhiteSmoke;
+}
+
+.plant-list {
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: WhiteSmoke;
+}
+
+
+/* to style 'id' attributes only 1 of each!! */
+#email {
+    color: black;
+}
+
+#colorChange {
+    background-color: yellow;
+}

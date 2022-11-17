@@ -1,0 +1,6 @@
+//ask user for num 1-8 inclusive
+
+//if not 1-8 inclusive, repeat above step
+
+//print out pyramid of # in for loop, i #'s plus new line for each iteration
+

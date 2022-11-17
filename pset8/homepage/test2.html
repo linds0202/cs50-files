@@ -1,0 +1,37 @@
+        <script>
+
+            // TODO: Add code to check answers to questions
+            
+            //Run script once DOM detected
+            document.addEventListener('DOMContentLoaded', function() {
+                //multiple choice question
+                
+                //when right answer clicked, turn green
+                let correct = document.querySelector('.correct');
+                correct.addEventListener('click', function() {
+                    correct.style.backgroundColor = 'green';
+                    document.querySelector('#feedback1').innerHTML = 'Correct!';
+                })
+                //when wrong answer turn red
+                let incorrects = document.querySelectorAll('.incorrect');
+                for (let i = 0; i < incorrects.length; i++){
+                    incorrects[i].addEventListener('click', function(){
+                        incorrects[i].style.backgroundColor = 'red';
+                        document.querySelector('#feedback1').innerHTML = 'Incorrect!';
+                    });
+                }
+                
+                //open ended answer
+                document.querySelector('#check').addEventListener('click', function() {
+                    let input = document.querySelector('input');
+                    if (input.value === 'Donald Trump') {
+                        input.style.backgroundColor = 'green';
+                        document.querySelector('#feedback2').innerHTML = 'Correct!';
+                    } else {
+                        input.style.backgroundColor = 'red';
+                        document.querySelector('#feedback2').innerHTML = 'Incorrect!';
+                    }
+                });
+            });
+
+        </script>
